@@ -26,7 +26,7 @@ const NewsContent = ({ NewsArray, NewsResults, Loadmore, setLoadmore }) => {
         ))}
         {Loadmore <= NewsResults && (
           <div>
-            <hr />
+            
             <button className="loadMore" onClick={()=>setLoadmore(Loadmore+20)}>Load More</button>
           </div>
         )}
